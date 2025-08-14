@@ -17,11 +17,11 @@ This image is automatically built and pushed to DockerHub with branch-based tagg
 
 ```dockerfile
 # Use the latest Go version
-FROM ball6847/go-dev-container:latest (latest golang on latest bookworm)
+FROM ball6847/go-dev-container:latest # latest golang on latest bookworm
 
 # Or use a specific Go version
-FROM ball6847/go-dev-container:1.24-bookworm (1.24 on bookworm)
-FROM ball6847/go-dev-container:1.25-bookworm (1.25 on bookworm)
+FROM ball6847/go-dev-container:1.24-bookworm # 1.24 on bookworm
+FROM ball6847/go-dev-container:1.25-bookworm # 1.25 on bookworm
 
 # Your service-specific instructions here
 COPY . /app
