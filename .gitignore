@@ -1,0 +1,19 @@
+# Build artifacts
+*.log
+*.tmp
+
+# Docker build context
+.dockerignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
