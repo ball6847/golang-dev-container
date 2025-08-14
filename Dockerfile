@@ -1,4 +1,4 @@
-FROM golang:1.24-bookworm
+FROM golang:1.25-bookworm
 
 # Install librdkafka from Confluent Platform repository
 RUN apt-get update && apt-get install -y \
